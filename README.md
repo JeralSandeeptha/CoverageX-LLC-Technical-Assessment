@@ -98,6 +98,8 @@ SELECT * FROM users;
 - test branch: Used for testing new features before merging to dev.
 - hotfix branch: Used for critical bug fixes and emergency patches.
 
+![Branching Startergy](https://res.cloudinary.com/dv9ax00l4/image/upload/v1740518496/scm_gopznv.png)
+
 ## Source Code
 
 You can view the source code with following links.
