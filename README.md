@@ -8,7 +8,7 @@ This repository contains all the project details for a CoverageX LLC technical a
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [System Architecture](#system-architecture)
-- [Database](#database)
+- [Database Architecture](#database-architecture)
 - [Source Code Management](#source-code-management)
 - [Main Focus](#main-focus)
 - [Extra Considerations](#extra-considerations)
@@ -27,7 +27,7 @@ Follow user stories documentation for more details. [View User Stories Documenta
 
 - Users can create tasks with a title and description
 - Only the five most recent tasks are displayed
-- Users can mark tasks as "Done," which removes them from the UI
+- Users can mark tasks as "Done" which removes them from the UI
 - The system follows a monolithic architecture
 - All components are containerized using Docker and managed with docker-compose
 - Unit, Intergration and End to End testing should be done through relavant areas
@@ -46,9 +46,33 @@ Follow user stories documentation for more details. [View User Stories Documenta
 
 ## System Architecture
 
-## Database
+This project was developed through Monolithic Architecture approach.
 
+![System Architecture](src/architecture.png)
 
+## Database Architecture
+
+Run this query for create the database.
+```sql
+CREATE TABLE IF NOT EXISTS users (
+    id SERIAL PRIMARY KEY,
+    email VARCHAR(100) UNIQUE NOT NULL,
+    password VARCHAR(255) NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE TABLE IF NOT EXISTS task (
+    id SERIAL PRIMARY KEY,
+    title VARCHAR(100) NOT NULL,
+    description VARCHAR(255) NOT NULL,
+    userId VARCHAR(255) NOT NULL,
+    isCompleted BOOLEAN NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+SELECT * FROM task;
+SELECT * FROM users;
+```
 
 ## Main Focus
 
