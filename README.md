@@ -23,8 +23,7 @@ This project is a full-stack to-do task web application built using a monolithic
 
 ## Features
 
-Follow user stories documentation for more details. 
-- [View User Stories Documentation](https://docs.google.com/document/d/1fKk21F5OHyZoVNSG5bwFx0rX9dtmRW2ckO6F6w_Pbno/edit?tab=t.0)
+Follow user stories documentation for more details. [View User Stories Documentation](https://docs.google.com/document/d/1fKk21F5OHyZoVNSG5bwFx0rX9dtmRW2ckO6F6w_Pbno/edit?tab=t.0)
 
 - Users can create tasks with a title and description
 - Only the five most recent tasks are displayed
