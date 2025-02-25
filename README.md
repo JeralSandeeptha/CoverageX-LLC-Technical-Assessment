@@ -23,92 +23,92 @@ This project is a full-stack to-do task web application built using a monolithic
 
 ## Features
 
-Users can create tasks with a title and description
+Follow user stories documentation for more details. 
 
-Only the five most recent tasks are displayed
-
-Users can mark tasks as "Done," which removes them from the UI
-
-The system follows a monolithic architecture
-
-All components are containerized using Docker and managed with docker-compose
-
-Unit, Intergration and End to End testing should be done through relavant areas
+- Users can create tasks with a title and description
+- Only the five most recent tasks are displayed
+- Users can mark tasks as "Done," which removes them from the UI
+- The system follows a monolithic architecture
+- All components are containerized using Docker and managed with docker-compose
+- Unit, Intergration and End to End testing should be done through relavant areas
 
 ## Technologies Used
 
-Frontend: React (TypeScript, Vite)
-
-Backend: Express.js with TypeScript
-
-Database: PostgreSQL
-
-Testing:
-- Unit Testing: Vitest
-- End-to-End Testing: Cypress
-
-Containerization: Docker & Docker Compose
-
-API Testing - Postman
-
-API Documentation - Thorugh Postman Publisher
-
-UI Libraries - Material UI
+- Frontend: React (TypeScript, Vite)
+- Backend: Express.js with TypeScript
+- Database: PostgreSQL
+- Testing: Unit Testing: Vitest, End-to-End Testing: Cypress
+- Containerization: Docker & Docker Compose
+- API Testing - Postman
+- API Documentation - Thorugh Postman Publisher
+- UI Libraries - Material UI
+- Code Editor - Visual Studio Code
 
 ## System Architecture
 
 ## Database
 
-## Source Code Management
+
 
 ## Main Focus
 
+- Implement Task management
+- Maintain code quality with testing
+- Project should run on docker
+
 ## Extra Considerations
 
-Implement user authentication for task management
+- Implement user authentication for task management
+- Advance user management with access Tokens and refresh tokens
 
-Advance user management with access Tokens and refresh tokens
+## Source Code Management
+
+**Version Control**: Git with GitHub for source code management.
+
+**Branching Strategy**: 
+- main branch: Stable production-ready code.
+- dev branch: Active development branch.
+- test branch: Used for testing new features before merging to dev.
+- hotfix branch: Used for critical bug fixes and emergency patches.
 
 ## Source Code
 
+You can view the source code with following links.
+- [Go to Frontend Repository](https://github.com/JeralSandeeptha/CoverageX-LLC-Technical-Assessment-React)
+- [Go to Backend Repository](https://github.com/JeralSandeeptha/CoverageX-LLC-Technical-Assessment-Nodejs)
+
 ## Improvements
 
-1. Enhancing Performance and Scalability
+1. **Enhancing Performance and Scalability**
  - Implement server-side pagination for task retrieval instead of limiting the UI to 5 tasks
  - Optimize database queries with indexing for faster retrieval
  - Use caching mechanisms like Redis to store frequently accessed data.
 
-2. Code Quality and Best Practices
+2. **Code Quality and Best Practices**
  - Enhance error handling with proper status codes and meaningful messages.
 
-3. Security Enhancements
+3. **Security Enhancements**
  - Improve the security with two factor authentication.
 
-4. Database and API Improvements
+4. **Database and API Improvements**
  - Implement API versioning to maintain backward compatibility.
 
-5. Improved Testing Strategy
+5. **Improved Testing Strategy**
  - Improve the test coverage of the code base.
 
-6. Docker and Deployment Enhancements
+6. **Docker and Deployment Enhancements**
  - Optimize Docker image sizes by using multi-stage builds.
  - Implement a CI/CD pipeline for automated testing and deployment.
 
 ## Future Enhancements
 
-Implement user authentication for task management
-
-Introduce real-time task updates using WebSockets
-
-Enhance UI/UX with better animations and state management
-
-Optimize database queries with indexing for better performance
-
-Implement server-side pagination to handle large datasets
-
-Add role-based access control (RBAC) for different user levels
-
-Deploy the application to a cloud platform with CI/CD integration
+- Implement user authentication for task management
+- Introduce real-time task updates using WebSockets
+- Enhance UI/UX with better animations and state management
+- Optimize database queries with indexing for better performance
+- Implement server-side pagination to handle large datasets
+- Add role-based access control (RBAC) for different user levels
+- Deploy the application to a cloud platform with CI/CD integration
 
 ## Acknowledgment
 
