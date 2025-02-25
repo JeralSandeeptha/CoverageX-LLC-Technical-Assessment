@@ -52,7 +52,10 @@ This project was developed through Monolithic Architecture approach.
 
 ## Database Architecture
 
-Run this query for create the database.
+Simple ER diagram
+![ER Diagram](https://res.cloudinary.com/dv9ax00l4/image/upload/v1740517480/er_gmsju3.png)
+
+Run this query for create the database
 ```sql
 CREATE TABLE IF NOT EXISTS users (
     id SERIAL PRIMARY KEY,
