@@ -5,6 +5,7 @@ This repository contains all the project details for a CoverageX LLC technical a
 ## Table of Contents
 
 - [Overview](#overview)
+- [Run the project](#run-the-project)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [System Architecture](#system-architecture)
@@ -20,6 +21,39 @@ This repository contains all the project details for a CoverageX LLC technical a
 ## Overview
 
 This project is a full-stack to-do task web application built using a monolithic architecture. The application allows users to create, view, and manage tasks efficiently. It adheres to clean code principles and SOLID design patterns to ensure maintainability and scalability.
+
+## Run the project
+
+If you want to run these project, there are serveral ways to run the project.
+
+- If you want to run application quickly you can use docker-compose.yml file.
+
+Install Docker
+```bash
+sudo apt update
+sudo apt install docker.io docker-compose -y
+```
+
+Verify Installation
+```bash
+docker -v
+docker-compose -v
+```
+
+Clone this github repository
+```bash
+https://github.com/JeralSandeeptha/CoverageX-LLC-Technical-Assessment
+cd CoverageX-LLC-Technical-Assessment
+```
+
+Run the Application
+```bash
+docker-compose up -d
+```
+
+- If you want to run application as repositories you can view the source code with following links. Every repository includes how to run each applications.
+- [Go to Frontend Repository](https://github.com/JeralSandeeptha/CoverageX-LLC-Technical-Assessment-React)
+- [Go to Backend Repository](https://github.com/JeralSandeeptha/CoverageX-LLC-Technical-Assessment-Nodejs)
 
 ## Features
 
